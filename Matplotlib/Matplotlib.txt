@@ -1,0 +1,18 @@
+¿Qué es Matplotlib?
+
+Matplotlib es una biblioteca de visualización de datos en Python.
+ Es muy utilizada para crear gráficos estáticos, animados e interactivos de manera fácil y rápida.
+ Matplotlib es conocida por su capacidad para generar gráficos de alta calidad,
+ similares a los que se pueden crear con herramientas como MATLAB.
+
+¿Cuándo se Usa Matplotlib?
+
+Matplotlib se utiliza cuando necesitas visualizar datos de manera gráfica para entender mejor las tendencias, patrones y relaciones en los datos.
+ Algunas de las tareas comunes que puedes realizar con Matplotlib incluyen:
+
+    Gráficos de Líneas: Para visualizar datos continuos a lo largo de un intervalo.
+    Gráficos de Barras: Para comparar cantidades entre diferentes grupos.
+    Histogramas: Para mostrar la distribución de un conjunto de datos.
+    Gráficos de Dispersión: Para mostrar la relación entre dos variables.
+    Gráficos de Sectores: Para mostrar proporciones de un todo.
+    Gráficos 3D: Para representar datos en tres dimensiones.
