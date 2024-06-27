@@ -18,3 +18,9 @@ Pandas se utiliza cuando necesitas realizar análisis de datos, manipulación de
     Manipulación de Datos: Filtrar, agregar, agrupar y transformar datos.
     Limpieza de Datos: Manejar datos faltantes, duplicados y realizar transformaciones en los datos.
     Análisis de Datos: Realizar cálculos estadísticos y sumarizaciones, generar reportes y gráficos.
+
+Conclusión:
+
+Pandas es una herramienta poderosa para cualquier analista de datos o científico de datos que trabaje con Python.
+Facilita la manipulación, análisis y visualización de datos de manera eficiente y eficaz.
+Con sus extensas capacidades, Pandas se convierte en una opción ideal para tareas de análisis de datos.

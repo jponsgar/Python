@@ -16,3 +16,10 @@ Matplotlib se utiliza cuando necesitas visualizar datos de manera gráfica para 
     Gráficos de Dispersión: Para mostrar la relación entre dos variables.
     Gráficos de Sectores: Para mostrar proporciones de un todo.
     Gráficos 3D: Para representar datos en tres dimensiones.
+
+Conclusión:
+
+Matplotlib es una herramienta poderosa para visualizar datos en Python.
+ Su amplia gama de capacidades de gráficos permite a los usuarios crear visualizaciones efectivas y significativas.
+ Desde gráficos de líneas simples hasta complejas visualizaciones en 3D,
+ Matplotlib proporciona las herramientas necesarias para entender y comunicar mejor tus datos.
