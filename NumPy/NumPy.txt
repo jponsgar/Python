@@ -1,0 +1,22 @@
+¿Qué es NumPy?
+
+NumPy (Numerical Python) es una biblioteca fundamental para la computación científica en Python.
+Proporciona un objeto de matriz multidimensional, varias funciones derivadas, herramientas para integrar C/C++ y Fortran, capacidades de álgebra lineal, generación de números aleatorios y mucho más.
+NumPy es el núcleo de muchas otras bibliotecas científicas en Python, como SciPy, Pandas y Matplotlib.
+
+¿Cuándo se Usa NumPy?
+
+NumPy se utiliza cuando necesitas realizar cálculos numéricos eficientes en Python.
+Es especialmente útil para operaciones matemáticas y lógicas en grandes conjuntos de datos, manipulaciones de matrices y generación de datos de manera eficiente.
+Algunas de las tareas comunes que puedes realizar con NumPy incluyen:
+
+    Creación y Manipulación de Matrices: Manipular datos en estructuras de matriz N-dimensional.
+    Operaciones Matemáticas y Lógicas: Realizar operaciones rápidas y eficientes en arreglos y matrices.
+    Estadísticas y Álgebra Lineal: Realizar cálculos estadísticos y de álgebra lineal.
+    Generación de Datos: Crear secuencias de datos y números aleatorios.
+
+Conclusión:
+
+NumPy es una herramienta esencial para la computación científica y el análisis de datos en Python.
+Su capacidad para manejar operaciones matemáticas y lógicas de manera eficiente lo convierte en la elección ideal para trabajar con grandes conjuntos de datos y realizar cálculos complejos.
+Con sus poderosas funcionalidades y su integración con otras bibliotecas, NumPy es fundamental para cualquier trabajo de ciencia de datos y análisis numérico en Python.
