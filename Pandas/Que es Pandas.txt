@@ -1,0 +1,20 @@
+¿Qué es Pandas?
+
+Pandas es una librería de Python que proporciona estructuras de datos y herramientas de análisis de datos de alto rendimiento y fáciles de usar.
+Es especialmente útil para manipular y analizar datos en formato tabular, como hojas de cálculo y bases de datos.
+
+Pandas se construye sobre la librería NumPy y está destinada a facilitar el trabajo con datos de series temporales y matrices.
+ Ofrece dos estructuras de datos principales:
+
+    Series: Una estructura de datos unidimensional similar a una lista o un array.
+    DataFrame: Una estructura de datos bidimensional similar a una tabla en una base de datos o una hoja de cálculo.
+
+¿Cuándo se Usa Pandas?
+
+Pandas se utiliza cuando necesitas realizar análisis de datos, manipulación de datos y limpieza de datos.
+ Algunas de las tareas comunes que puedes realizar con Pandas incluyen:
+
+    Lectura y Escritura de Datos: Importar y exportar datos desde y hacia diversos formatos como CSV, Excel, SQL, JSON, etc.
+    Manipulación de Datos: Filtrar, agregar, agrupar y transformar datos.
+    Limpieza de Datos: Manejar datos faltantes, duplicados y realizar transformaciones en los datos.
+    Análisis de Datos: Realizar cálculos estadísticos y sumarizaciones, generar reportes y gráficos.
