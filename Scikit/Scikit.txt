@@ -1,0 +1,25 @@
+¿Qué es Scikit-Learn?
+
+Scikit-Learn es una biblioteca de Python ampliamente utilizada para el aprendizaje automático (Machine Learning).
+Proporciona herramientas simples y eficientes para la minería de datos y el análisis de datos.
+Scikit-Learn se basa en otras bibliotecas de Python como NumPy, SciPy y Matplotlib,
+y es conocida por su facilidad de uso y su extensa colección de algoritmos de aprendizaje automático.
+
+¿Cuándo se Usa Scikit-Learn?
+
+Scikit-Learn se utiliza para una variedad de tareas de aprendizaje automático, incluyendo:
+
+    Clasificación: Identificación de la categoría a la que pertenece un dato.
+    Regresión: Predicción de un valor continuo.
+    Clustering: Agrupamiento de datos en grupos similares.
+    Reducción de Dimensionalidad: Reducción del número de variables en los datos.
+    Selección de Modelos: Comparación, validación y selección de parámetros y modelos.
+    Preprocesamiento de Datos: Transformación de datos para mejorar el rendimiento del modelo.
+
+Conclusión:
+
+Scikit-Learn es una herramienta poderosa y versátil para el aprendizaje automático en Python.
+Con su amplia gama de algoritmos y herramientas, puedes abordar una variedad de problemas de Machine Learning,
+desde la clasificación y regresión hasta el clustering y la reducción de dimensionalidad.
+Scikit-Learn facilita el proceso de construir y evaluar modelos de Machine Learning,
+haciendo que sea accesible tanto para principiantes como para expertos.
