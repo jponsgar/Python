@@ -59,11 +59,11 @@ Yo uso este: https://www.kaggle.com/datasets/austinreese/craigslist-carstrucks-d
 
 # Para ejecutar la siguiente celda se necesita tener el dataset en la misma carpeta
 
-#%% C:/Users/jpons/Code/Ejercicios/Python/Pandas/vehicles.csv
+#%% C:/Users/jpons/Code/Ejercicios/Python/01.Pandas/vehicles.csv
 
 
 # Leer un archivo CSV
-df = pd.read_csv('C:/Users/jpons/Code/Ejercicios/Python/Pandas/vehicles.csv')
+df = pd.read_csv('C:/Users/jpons/Code/Ejercicios/Python/01.Pandas/vehicles.csv')
 
 print(df.head())  # Mostrar las primeras 5 filas del DataFrame
 #%% Comparación en memoria:
@@ -98,13 +98,13 @@ print("id:", segundo_id)
 #%% Acortar el CSV de vehículos
 
 
-df = pd.read_csv('C:/Users/jpons/Code/Ejercicios/Python/Pandas/vehicles.csv') # todas las filas y cols del CSV original -> 1.45Gb
+df = pd.read_csv('C:/Users/jpons/Code/Ejercicios/Python/01.Pandas/vehicles.csv') # todas las filas y cols del CSV original -> 1.45Gb
 
 # Crear una copia del DataFrame con las 10 primeras filas
 df_copia = df.head(10).copy()
 
 # Guardar en otro CSV:
-df_copia.to_csv("C:/Users/jpons/Code/Ejercicios/Python/Pandas/vehicles_acortado.csv", index=False) # mechatroner.rainbow-csv CSV Rainbow para visualizar columna por colores
+df_copia.to_csv("C:/Users/jpons/Code/Ejercicios/Python/01.Pandas/vehicles_acortado.csv", index=False) # mechatroner.rainbow-csv CSV Rainbow para visualizar columna por colores
 # %% Filtrado de datos en un dataframe
 
 
