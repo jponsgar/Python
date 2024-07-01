@@ -1,0 +1,15 @@
+Explicación del código:
+
+    1. Importar las bibliotecas: Importamos pandas para manejar el dataframe, matplotlib.pyplot para la visualización y LinearRegression de sklearn para crear el modelo de regresión lineal.
+   
+    2. Leer el fichero: Utilizamos pandas para leer el fichero vehicles.csv y mostramos los primeros registros.
+  
+    3.  Filtrar y preparar los datos: Seleccionamos las columnas relevantes (year, price, odometer) y eliminamos filas con valores faltantes.
+
+    4. Crear el modelo de regresión lineal: Usamos LinearRegression para crear y entrenar el modelo con year y odometer como variables predictoras y price como variable objetivo.
+
+    5. Hacer predicciones: Creamos un rango de valores para el año y un valor fijo para el odómetro (mediana) para predecir los precios.
+    
+    6. Graficar los datos: Utilizamos matplotlib para crear un gráfico de dispersión de los datos reales y una línea de regresión que muestra la relación entre el año del vehículo y su precio.
+
+Este programa lee los datos del fichero vehicles.csv, muestra los primeros registros, entrena un modelo de regresión lineal para predecir el precio de un vehículo basado en su año y kilometraje, y finalmente visualiza los datos reales y la línea de regresión en un gráfico.
