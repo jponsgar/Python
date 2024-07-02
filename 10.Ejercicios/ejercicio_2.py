@@ -16,14 +16,16 @@ plt.hist(data['Altura'], bins=50, edgecolor='black')
 plt.title('Histograma de Alturas')
 plt.xlabel('Altura (cm)')
 plt.ylabel('Frecuencia')
+plt.grid(ls="--", color="#dadada")
 plt.show()
 
 
 # Diagrama de dispersión de pesos vs edades
-plt.scatter(data['Edad'], data['Peso'], edgecolor='black')
+plt.scatter(data['Edad'], data['Peso'], edgecolor='blue')
 plt.title('Diagrama de Dispersión de Pesos vs Edades')
 plt.xlabel('Edad (años)')
 plt.ylabel('Peso (kg)')
+plt.grid(ls="--", color="#dadada")
 plt.show()
 
 # Gráfica de barras de promedios de altura por género
@@ -31,4 +33,5 @@ plt.bar(Altura_by_Genero['Genero'], Altura_by_Genero['Altura'], color=['blue', '
 plt.title('Promedio de Alturas por Género')
 plt.xlabel('Género')
 plt.ylabel('Altura Promedio (cm)')
+plt.grid(ls="--", color="#dadada")
 plt.show()
