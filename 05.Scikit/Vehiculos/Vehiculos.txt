@@ -1,15 +1,37 @@
 Explicación del código:
 
-    1. Importar las bibliotecas: Importamos pandas para manejar el dataframe, matplotlib.pyplot para la visualización y LinearRegression de sklearn para crear el modelo de regresión lineal.
-   
-    2. Leer el fichero: Utilizamos pandas para leer el fichero vehicles.csv y mostramos los primeros registros.
-  
-    3.  Filtrar y preparar los datos: Seleccionamos las columnas relevantes (year, price, odometer) y eliminamos filas con valores faltantes.
+    Preparar los datos para la predicción:
 
-    4. Crear el modelo de regresión lineal: Usamos LinearRegression para crear y entrenar el modelo con year y odometer como variables predictoras y price como variable objetivo.
+        Calculamos un rango de valores para year y usamos la mediana de odometer,
+        así como las modas de manufacturer, condition y fuel para las predicciones.
 
-    5. Hacer predicciones: Creamos un rango de valores para el año y un valor fijo para el odómetro (mediana) para predecir los precios.
+    Predicciones de la línea de regresión:
+
+        Creamos un dataframe (pred_data) para almacenar estos valores y
+        generamos predicciones de precios utilizando el modelo entrenado.
     
-    6. Graficar los datos: Utilizamos matplotlib para crear un gráfico de dispersión de los datos reales y una línea de regresión que muestra la relación entre el año del vehículo y su precio.
+    Graficar los datos:
 
-Este programa lee los datos del fichero vehicles.csv, muestra los primeros registros, entrena un modelo de regresión lineal para predecir el precio de un vehículo basado en su año y kilometraje, y finalmente visualiza los datos reales y la línea de regresión en un gráfico.
+        Con el eje X representando el año del vehículo (year) y el eje Y
+        representando el precio del vehículo (price).
+        Utilizamos un gráfico de dispersión para mostrar los datos reales y
+        una línea roja discontinua para mostrar las predicciones del modelo de regresión lineal.
+
+Interpretación del gráfico:
+
+    Datos reales (puntos azules):
+        Cada punto azul representa el precio de un vehículo en un año específico.
+        
+    Línea de regresión (línea roja discontinua):
+        La línea roja muestra la tendencia general del precio del vehículo en función del año,
+        según lo predicho por el modelo de regresión lineal que incluye manufacturer,
+        condition y fuel como variables adicionales.
+
+Evaluación del modelo:
+
+    R^2 score:
+        El R^2 score impreso en la consola indica qué tan bien se ajusta el modelo a los datos.
+        Un valor cercano a 1 indica un buen ajuste.
+
+Este programa mejora la precisión del modelo al incluir más variables predictoras y
+permite una mejor visualización de la relación entre el año del vehículo y su precio.

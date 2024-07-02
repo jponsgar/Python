@@ -1,0 +1,187 @@
+Resumen
+
+Este conjunto de datos contiene información médica detallada para 1.659 pacientes diagnosticados con Enfermedad renal crónica (ECC). El conjunto de datos incluye detalles demográficos, factores de estilo de vida, antecedentes médicos, mediciones clínicas, uso de medicamentos, síntomas, calificaciones de calidad de vida, exposiciones ambientales y comportamientos de salud. Cada paciente está identificado de forma única por una identificación del paciente, y los datos incluyen una columna confidencial que indica al médico a cargo.
+Tabla de contenidos
+
+    Información del paciente
+        Identificación del paciente
+        Detalles demográficos
+        Factores de estilo de vida
+    Historial médico
+    Mediciones clínicas
+    Medicamentos
+    Síntomas y calidad de vida
+    Exposiciones ambientales y ocupacionales
+    Comportamientos de salud
+    Información de diagnóstico
+
+Información del paciente
+Identificación del paciente
+
+    Paciente: Un identificador único asignado a cada paciente (1 a 1.659).
+
+Detalles demográficos
+
+    Edad: La edad de los pacientes oscila entre los 20 y 90 años.
+    Género: Género de los pacientes, donde 0 representa a Hombre y 1 representa a Mujer.
+    Etnica: La etnia de los pacientes, codificada de la siguiente manera:
+        0: caucásico
+        1: Afroamericano
+        2: Asia
+        3: Otros
+    Sosto socioeconómico: El estatus socioeconómico de los pacientes, codificado de la siguiente manera:
+        0: Baja
+        1: Medio
+        2: Alto
+    Nivel de Educación: El nivel de educación de los pacientes, codificado de la siguiente manera:
+        0: Ninguno
+        1: Escuela secundaria
+        2: Licenciatura
+        3: Mayor
+
+Factores de estilo de vida
+
+    IMC: Indice de masa corporal de los pacientes, que va de 15 a 40.
+    Fumar : Estado de fumamiento, donde 0 indica No y 1 indica Sí.
+    Consumo de alcohol : Consumo semanal de alcohol en unidades, que van de 0 a 20.
+    Actividad Física: Actividad física semanal en horas, que va de 0 a 10.
+    DietaCalidad: puntada de calidad de la dieta, que va de 0 a 10.
+    SleepQualidad: Puntuación de calidad del sueño, que va de 4 a 10.
+
+Historial médico
+
+    Historia FamiliarKidneyDiseasa : Antecedentes familiares de enfermedad renal, donde 0 indica No y 1 indica Sí.
+    Historia FamiliarHipertensión: Antecedentes familiares de hipertensión, donde 0 indica No y 1 indica Sí.
+    Historia FamiliarDiabetes : Antecedentes familiares de la diabetes, donde 0 indica No y 1 indica Sí.
+    PreviousAcuteKidneyLíjuria : Historia de la lesión renal aguda previa, donde 0 indica No y 1 indica Sí.
+    UrinaryTractInfecciones : Historia de las infecciones del tracto urinario, donde 0 indica No y 1 indica Sí.
+
+Mediciones clínicas
+
+    SystolicBP: Presión arterial sistólica, que va de 90 a 180 mmHg.
+    Diastólicos: Presión arterial diastólica, que va de 60 a 120 mmHg.
+    AyunoBloodSugar : Ayuda niveles de azúcar en sangre, que van de 70 a 200 mg/dL.
+    HbA1c: Niveles de hemoglobina A1c, que van del 4,0% al 10,0%.
+    SerumCreatinina: Niveles de creatinina en suero, que van de 0,5 a 5,0 mg/dL.
+    BUNLevels : Niveles de Nitrogen de la Urea de Sangre, que van de 5 a 50 mg/dL.
+    GFR : Tasa de Filtración Glomerular, que va de 15 a 120 mL/min/1.73 m2.
+    ProteínaInUrine: Niveles de proteínas en la orina, que van de 0 a 5 g/día.
+    ACR: Ratio de Albumin-to-Creatinina, que va de 0 a 300 mg/g.
+    SerumElectrolytesSodium : Niveles de sodio sérico, que van de 135 a 145 mEq/L.
+    SerumElectrolytesPotasio: Niveles de potasio séricos, que van de 3,5 a 5,5 mEq/L.
+    SerumElectrolytesCalcium: Niveles de calcio sérico, que van de 8,5 a 10,5 mg/dL.
+    SerumElectrolytesPhóforo : Niveles de fósforo sérico, que van de 2,5 a 4,5 mg/dL.
+    HemoglobinLevels: Niveles de hemoglobina, que van de 10 a 18 g/dL.
+    ColesterolTotal : Niveles totales de colesterol, que van de 150 a 300 mg/dL.
+    ColesterolLDL : Niveles de colesterol lipoproteína de baja densidad, que van de 50 a 200 mg/dL.
+    ColesterolHDL: Niveles de colesterol lipoproteína de alta densidad, que van de 20 a 100 mg/dL.
+    ColesterolTriglycerides : Niveles de triglicéridos, que van de 50 a 400 mg/dL.
+
+Medicamentos
+
+    ACEInhibidores : Uso de inhibidores de la ECA, donde 0 indica No y 1 indica Sí.
+    Diuréticos: Uso de diuréticos, donde 0 indica No y 1 indica Sí.
+    AINEUse : Frecuencia de uso de AINEs, que va de 0 a 10 veces por semana.
+    Estatinas: Uso de estatinas, donde 0 indica No y 1 indica Sí.
+    Medicamentos antidiabéticos: Uso de medicamentos antidiabéticos, donde 0 indica No y 1 indica Sí.
+
+Síntomas y calidad de vida
+
+    Edema: Presencia de edema, donde 0 indica No y 1 indica Sí.
+    Niveles de Fatiga : Niveles de fatiga, que van de 0 a 10.
+    NáuseasVomiting : Frecuencia de náuseas y vómitos, que va de 0 a 7 veces por semana.
+    MuscleCramps: Frecuencia de calambres musculares, que van de 0 a 7 veces por semana.
+    Picazón: Severidad de picor, que va de 0 a 10.
+    QualityOfLifeScore : Puntuación de calidad de vida, que va de 0 a 100.
+
+Exposiciones ambientales y ocupacionales
+
+    HeavyMetalsExposición : Exposición a metales pesados, donde 0 indica No y 1 indica Sí.
+    OcupacionalExposiciónQuímicas: Exposición ocupacional a productos químicos dañinos, donde 0 indica No y 1 indica Sí.
+    Calidad del agua: Calidad del agua, donde 0 indica Bien y 1 indica Pobre.
+
+Comportamientos de salud
+
+    MedicalCheckupsFrequencia : Frecuencia de chequeos médicos por año, que van de 0 a 4.
+    MedicationAdherencia: Anotar de adherencia a la medicación, que va de 0 a 10.
+    SaludLiteracy : Puntuación de alfabetización en salud, que va de 0 a 10.
+
+Información de diagnóstico
+
+    Diagnóstico : Estado de diagnóstico de la enfermedad renal crónica, donde 0 indica No y 1 indica Sí.
+
+Información confidencial
+
+    DoctorIncargar : Esta columna contiene información confidencial sobre el médico a cargo, con "Confidencial" como valor para todos los pacientes.
+    Este conjunto de datos completo proporciona información valiosa sobre los diversos factores asociados con la enfermedad renal crónica y se puede utilizar para varios análisis, incluyendo análisis estadístico, desarrollo de modelos de aprendizaje automático, y más.
+
+Usabilidad
+
+10.00
+Licencia
+
+Atribución 4.0 Internacional (CC BY 4.0)
+Frecuencia de actualización esperada
+
+Nunca
+Etiquetas
+Chronic-Kidney-Dsease.data.csv(1.02 MB)
+
+10 de 54 columnas
+Acerca de este archivo
+
+    Paciente: Un identificador único asignado a cada paciente (1 a 1.659).
+    Edad: La edad de los pacientes oscila entre los 20 y 90 años.
+    Género: Género de los pacientes, donde 0 representa a Hombre y 1 representa a Mujer.
+    Etnica: La etnia de los pacientes, codificada de la siguiente manera:
+        0: caucásico
+        1: Afroamericano
+        2: Asia
+        3: Otros
+    Situación socioeconómica: El estatus socioeconómico de los pacientes
+    Nivel de Educación: El nivel de educación de los pacientes, codificado de la siguiente manera:
+        0: Ninguno
+        1: Escuela secundaria
+        2: Licenciatura
+        3: Mayor
+    IMC: Indice de masa corporal de los pacientes, que va de 15 a 40.
+    Fumar : Estado de fumamiento, donde 0 indica No y 1 indica Sí.
+    Consumo de alcohol : Consumo semanal de alcohol en unidades, que van de 0 a 20.
+    Actividad Física: Actividad física semanal en horas, que va de 0 a 10.
+    DietaCalidad: puntada de calidad de la dieta, que va de 0 a 10.
+    SleepQualidad: Puntuación de calidad del sueño, que va de 4 a 10.
+    Historia FamiliarKidneyDiseasa : Antecedentes familiares de enfermedad renal, donde 0 indica No y 1 indica Sí.
+    Historia FamiliarHipertensión: Antecedentes familiares de hipertensión, donde 0 indica No y 1 indica Sí.
+    Historia FamiliarDiabetes : Antecedentes familiares de la diabetes, donde 0 indica No y 1 indica Sí.
+    PreviousAcuteKidneyLíjuria : Historia de la lesión renal aguda previa, donde 0 indica No y 1 indica Sí.
+    UrinaryTractInfecciones : Historia de las infecciones del tracto urinario, donde 0 indica No y 1 indica Sí.
+    SystolicBP: Presión arterial sistólica, que va de 90 a 180 mmHg.
+    Diastólicos: Presión arterial diastólica, que va de 60 a 120 mmHg.
+    AyunoBloodSugar : Ayuda niveles de azúcar en sangre, que van de 70 a 200 mg/dL.
+    HbA1c: Niveles de hemoglobina A1c, que van del 4,0% al 10,0%.
+    SerumCreatinina: Niveles de creatinina en suero, que van de 0,5 a 5,0 mg/dL.
+    BUNLevels : Niveles de Nitrogen de la Urea de Sangre, que van de 5 a 50 mg/dL.
+    GFR : Tasa de Filtración Glomerular, que va de 15 a 120 mL/min/1.73 m2.
+    ProteínaInUrine: Niveles de proteínas en la orina, que van de 0 a 5 g/día.
+    ACR: Ratio de Albumin-to-Creatinina, que va de 0 a 300 mg/g.
+    SerumElectrolytesSodium : Niveles de sodio sérico, que van de 135 a 145 mEq/L.
+    SerumElectrolytesPotasio: Niveles de potasio séricos, que van de 3,5 a 5,5 mEq/L.
+    SerumElectrolytesCalcium: Niveles de calcio sérico, que van de 8,5 a 10,5 mg/dL.
+    SerumElectrolytesPhóforo : Niveles de fósforo sérico, que van de 2,5 a 4,5 mg/dL.
+    HemoglobinLevels: Niveles de hemoglobina, que van de 10 a 18 g/dL.
+    ColesterolTotal : Niveles totales de colesterol, que van de 150 a 300 mg/dL.
+    ColesterolLDL : Niveles de colesterol lipoproteína de baja densidad, que van de 50 a 200 mg/dL.
+    ColesterolHDL: Niveles de colesterol lipoproteína de alta densidad, que van de 20 a 100 mg/dL.
+    ColesterolTriglycerides : Niveles de triglicéridos, que van de 50 a 400 mg/dL.
+    ACEInhibidores : Uso de inhibidores de la ECA, donde 0 indica No y 1 indica Sí.
+    Diuréticos: Uso de diuréticos, donde 0 indica No y 1 indica Sí.
+    AINEUse : Frecuencia de uso de AINEs, que va de 0 a 10 veces por semana.
+    Estatinas: Uso de estatinas, donde 0 indica No y 1 indica Sí.
+    Medicamentos antidiabéticos: Uso de medicamentos antidiabéticos, donde 0 indica No y 1 indica Sí.
+    Edema: Presencia de edema, donde 0 indica No y 1 indica Sí.
+    Niveles de Fatiga : Niveles de fatiga, que van de 0 a 10.
+    NáuseasVomiting : Frecuencia de náuseas y vómitos, que va de 0 a 7 veces por semana.
+    MuscleCramps: Frecuencia de calambres musculares, que van de 0 a 7 veces por semana.
+    Picazón: Severidad de picor, que va de 0 a 10.
+    QualityOfLifeScore : Puntuación de calidad de vida, que va de 0 a 100.
+    HeavyMetalsExposición : Exposición a metales pesados, donde 0 indica No y 1 indica Sí.
