@@ -1,0 +1,14 @@
+Modelo de Regresión Lineal para predicción de la clasificación del riñón del paciente:
+
+Dada una lista de valores analíticas con los campos (edad, presion_arterial, albumina, glucosa, urea_sangre, creatinina_serica, sodio, potasio, hemoglobina, recuento_globulos_blancos, recuento_globulos_rojos, hipertension, clasificacion), del fichero kidney_disease.csv. Crea un modelo de regresión lineal que prediga con una precisión de al menos el 5% la clasificación del riñon del paciente. Debes:
+- Dividir los datos en conjuntos de entrenamiento y prueba.
+- Entrenar el modelo usando scikit-learn.
+- Evaluar la precisión del modelo en el conjunto de prueba.
+- Visualizar los resultados de la predicción comparando las valores reales y las predichos.
+
+El programa debe mostrar la ecuación del modelo y un gráfico de las predicciones vs los valores reales.
+
+- Usa scikit-learn para crear y entrenar el modelo de regresión lineal.
+- Divide los datos usando train_test_split de scikit-learn.
+- Evalúa el modelo usando métricas de error y asegúrate de que la precisión esté dentro del 5%.
+- Utiliza Matplotlib para graficar las predicciones vs los valores reales.
