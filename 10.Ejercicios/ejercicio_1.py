@@ -3,8 +3,8 @@ import time
 import sys
 
 # Lista y un Array numpy con un millón de elementos
-python_list = list(range(1,1000000))
-numpy_array = np.arange(start=1, stop=1000000, step=1)
+python_list = list(range(1_000_000))
+numpy_array = np.arange(1_000_000)
 
 # Tiempo y Memoria suma - Lista
 start_time = time.time()
