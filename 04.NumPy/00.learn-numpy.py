@@ -1,10 +1,12 @@
 # Introducción a numpy
 
 """Activando el entorno virtual
-  pip install numpy
+    pip install numpy
+   Visualizar pips
+    pip freeze
 """
 #%% importación
-import numpy as np # importación estándar
+import numpy as np # type: ignore # importación estándar
 print("Estamos usando numpy v", np.__version__)
 # %% comparativa entre array y listas 1D y 2D
 import sys
