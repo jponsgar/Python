@@ -1,5 +1,6 @@
 #%% importaciones
 import sklearn as scikit_learn
+print("Estamos usando scikit-learn v", sklearn.__version__)
 import numpy as np
 import matplotlib.pyplot as plt
 from sklearn import datasets
